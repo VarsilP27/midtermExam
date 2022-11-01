@@ -1,0 +1,90 @@
+@import url('./layout.css');
+h1
+{
+    text-align: center;
+    font-size: 60px;
+}
+.ul1
+{
+    display: flex;
+    justify-content: center;
+}
+li
+{
+    padding: 40px 20px;
+}
+.img1
+{
+    width: 50px;
+}
+.img2
+{
+    width: 50px;
+}
+.img3
+{
+    width: 50px;
+}
+.img4
+{
+    width: 50px;
+}
+
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    left: 150px;
+    top: 20px;
+    
+}
+section{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    
+}
+.price{
+    width: 80%;
+text-align: center;
+border: 1px;
+border-style: solid;
+background-color: black;
+color: #fff;
+}
+#asion-3ide-opt{
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+   
+}
+.asidediv{
+    width: 80%;
+    text-align: center;
+    border: 1px;
+    border-style: solid;
+    background-color: black;
+    color: #fff;
+    margin-top: 10px;
+}
+p{
+    padding: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: row-reverse;
+  
+    
+}
+a{
+    color: #fff;
+}
